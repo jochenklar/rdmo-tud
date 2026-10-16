@@ -1,0 +1,65 @@
+:root {
+    --tud-green: #008877;
+    --tud-dark-green: #00685c;
+    --tud-light-green: #2b9586;
+    --tud-pale-green: #c6e3e0;
+    --tud-light-gray: #efefef;
+
+    --rdmo-body-bg: #fefefe;
+    --rdmo-body-color: #333;
+
+    --rdmo-navbar-bg: var(--tud-green);
+    --rdmo-navbar-color: var(--tud-pale-green);
+    --rdmo-navbar-hover-color: white;
+
+    --rdmo-sidebar-bg: var(--tud-green);
+    --rdmo-sidebar-color: #fff;
+
+    --rdmo-link-color: var(--tud-green);
+    --rdmo-link-decoration: none;
+    --rdmo-link-hover-color: var(--tud-dark-green);
+}
+
+aside {
+    color: var(--tud-pale-green);
+
+    a, a:focus {
+        color: var(--tud-pale-green);
+    }
+    a:hover {;
+        color: white;
+    }
+
+    .card {
+        color: var(--tud-pale-green);
+        background-color: var(--tud-light-green);
+
+        .text-muted {
+            color: var(--tud-pale-green) !important;
+        }
+    }
+}
+
+nav.nav-pills {
+    --rdmo-nav-link-hover-bg: var(--tud-dark-green);
+
+    --bs-nav-link-color: var(--tud-pale-green);
+    --bs-nav-link-hover-color: white;
+
+    --bs-nav-pills-link-active-color: white;
+    --bs-nav-pills-link-active-bg: var(--tud-dark-green);
+}
+
+table.table {
+    --rdmo-table-th-bg: var(--tud-light-gray);
+}
+
+.card.card-tile {
+    .card-header {
+        background-color: var(--tud-light-gray);
+    }
+}
+
+.progress, .progress-stacked {
+    --bs-progress-bar-bg: var(--tud-green);
+}

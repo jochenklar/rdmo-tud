@@ -1,0 +1,10 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rdmo-tud"
+dynamic = ["version"]
+
+[tool.hatch.version]
+source = "vcs"
